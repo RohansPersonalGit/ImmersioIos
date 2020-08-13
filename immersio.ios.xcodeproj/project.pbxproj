@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E8C0F3F24E5ED7D00DCD8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F3E24E5ED7D00DCD8D9 /* AppDelegate.swift */; };
+		9E8C0F4124E5ED7D00DCD8D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4024E5ED7D00DCD8D9 /* SceneDelegate.swift */; };
+		9E8C0F4324E5ED7D00DCD8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4224E5ED7D00DCD8D9 /* ViewController.swift */; };
+		9E8C0F4624E5ED7D00DCD8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4424E5ED7D00DCD8D9 /* Main.storyboard */; };
+		9E8C0F4924E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4724E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld */; };
+		9E8C0F4B24E5ED8000DCD8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4A24E5ED8000DCD8D9 /* Assets.xcassets */; };
+		9E8C0F4E24E5ED8000DCD8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4C24E5ED8000DCD8D9 /* LaunchScreen.storyboard */; };
+		9E8C0F5924E5ED8000DCD8D9 /* immersio_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F5824E5ED8000DCD8D9 /* immersio_iosTests.swift */; };
+		9E8C0F6424E5ED8000DCD8D9 /* immersio_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F6324E5ED8000DCD8D9 /* immersio_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E8C0F5524E5ED8000DCD8D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E8C0F3324E5ED7D00DCD8D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E8C0F3A24E5ED7D00DCD8D9;
+			remoteInfo = immersio.ios;
+		};
+		9E8C0F6024E5ED8000DCD8D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E8C0F3324E5ED7D00DCD8D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E8C0F3A24E5ED7D00DCD8D9;
+			remoteInfo = immersio.ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E8C0F3B24E5ED7D00DCD8D9 /* immersio.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = immersio.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8C0F3E24E5ED7D00DCD8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E8C0F4024E5ED7D00DCD8D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E8C0F4224E5ED7D00DCD8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E8C0F4524E5ED7D00DCD8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E8C0F4824E5ED7D00DCD8D9 /* immersio_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = immersio_ios.xcdatamodel; sourceTree = "<group>"; };
+		9E8C0F4A24E5ED8000DCD8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E8C0F4D24E5ED8000DCD8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E8C0F4F24E5ED8000DCD8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8C0F5424E5ED8000DCD8D9 /* immersio.iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = immersio.iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8C0F5824E5ED8000DCD8D9 /* immersio_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = immersio_iosTests.swift; sourceTree = "<group>"; };
+		9E8C0F5A24E5ED8000DCD8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8C0F5F24E5ED8000DCD8D9 /* immersio.iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = immersio.iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8C0F6324E5ED8000DCD8D9 /* immersio_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = immersio_iosUITests.swift; sourceTree = "<group>"; };
+		9E8C0F6524E5ED8000DCD8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E8C0F3824E5ED7D00DCD8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C0F5124E5ED8000DCD8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C0F5C24E5ED8000DCD8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E8C0F3224E5ED7D00DCD8D9 = {
+			isa = PBXGroup;
+			children = (
+				9E8C0F3D24E5ED7D00DCD8D9 /* immersio.ios */,
+				9E8C0F5724E5ED8000DCD8D9 /* immersio.iosTests */,
+				9E8C0F6224E5ED8000DCD8D9 /* immersio.iosUITests */,
+				9E8C0F3C24E5ED7D00DCD8D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8C0F3C24E5ED7D00DCD8D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C0F3B24E5ED7D00DCD8D9 /* immersio.ios.app */,
+				9E8C0F5424E5ED8000DCD8D9 /* immersio.iosTests.xctest */,
+				9E8C0F5F24E5ED8000DCD8D9 /* immersio.iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8C0F3D24E5ED7D00DCD8D9 /* immersio.ios */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C0F3E24E5ED7D00DCD8D9 /* AppDelegate.swift */,
+				9E8C0F4024E5ED7D00DCD8D9 /* SceneDelegate.swift */,
+				9E8C0F4224E5ED7D00DCD8D9 /* ViewController.swift */,
+				9E8C0F4424E5ED7D00DCD8D9 /* Main.storyboard */,
+				9E8C0F4A24E5ED8000DCD8D9 /* Assets.xcassets */,
+				9E8C0F4C24E5ED8000DCD8D9 /* LaunchScreen.storyboard */,
+				9E8C0F4F24E5ED8000DCD8D9 /* Info.plist */,
+				9E8C0F4724E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld */,
+			);
+			path = immersio.ios;
+			sourceTree = "<group>";
+		};
+		9E8C0F5724E5ED8000DCD8D9 /* immersio.iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C0F5824E5ED8000DCD8D9 /* immersio_iosTests.swift */,
+				9E8C0F5A24E5ED8000DCD8D9 /* Info.plist */,
+			);
+			path = immersio.iosTests;
+			sourceTree = "<group>";
+		};
+		9E8C0F6224E5ED8000DCD8D9 /* immersio.iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C0F6324E5ED8000DCD8D9 /* immersio_iosUITests.swift */,
+				9E8C0F6524E5ED8000DCD8D9 /* Info.plist */,
+			);
+			path = immersio.iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8C0F3A24E5ED7D00DCD8D9 /* immersio.ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8C0F6824E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.ios" */;
+			buildPhases = (
+				9E8C0F3724E5ED7D00DCD8D9 /* Sources */,
+				9E8C0F3824E5ED7D00DCD8D9 /* Frameworks */,
+				9E8C0F3924E5ED7D00DCD8D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = immersio.ios;
+			productName = immersio.ios;
+			productReference = 9E8C0F3B24E5ED7D00DCD8D9 /* immersio.ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E8C0F5324E5ED8000DCD8D9 /* immersio.iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8C0F6B24E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.iosTests" */;
+			buildPhases = (
+				9E8C0F5024E5ED8000DCD8D9 /* Sources */,
+				9E8C0F5124E5ED8000DCD8D9 /* Frameworks */,
+				9E8C0F5224E5ED8000DCD8D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E8C0F5624E5ED8000DCD8D9 /* PBXTargetDependency */,
+			);
+			name = immersio.iosTests;
+			productName = immersio.iosTests;
+			productReference = 9E8C0F5424E5ED8000DCD8D9 /* immersio.iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E8C0F5E24E5ED8000DCD8D9 /* immersio.iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8C0F6E24E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.iosUITests" */;
+			buildPhases = (
+				9E8C0F5B24E5ED8000DCD8D9 /* Sources */,
+				9E8C0F5C24E5ED8000DCD8D9 /* Frameworks */,
+				9E8C0F5D24E5ED8000DCD8D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E8C0F6124E5ED8000DCD8D9 /* PBXTargetDependency */,
+			);
+			name = immersio.iosUITests;
+			productName = immersio.iosUITests;
+			productReference = 9E8C0F5F24E5ED8000DCD8D9 /* immersio.iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E8C0F3324E5ED7D00DCD8D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Immersio;
+				TargetAttributes = {
+					9E8C0F3A24E5ED7D00DCD8D9 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9E8C0F5324E5ED8000DCD8D9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9E8C0F3A24E5ED7D00DCD8D9;
+					};
+					9E8C0F5E24E5ED8000DCD8D9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9E8C0F3A24E5ED7D00DCD8D9;
+					};
+				};
+			};
+			buildConfigurationList = 9E8C0F3624E5ED7D00DCD8D9 /* Build configuration list for PBXProject "immersio.ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E8C0F3224E5ED7D00DCD8D9;
+			productRefGroup = 9E8C0F3C24E5ED7D00DCD8D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8C0F3A24E5ED7D00DCD8D9 /* immersio.ios */,
+				9E8C0F5324E5ED8000DCD8D9 /* immersio.iosTests */,
+				9E8C0F5E24E5ED8000DCD8D9 /* immersio.iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E8C0F3924E5ED7D00DCD8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8C0F4E24E5ED8000DCD8D9 /* LaunchScreen.storyboard in Resources */,
+				9E8C0F4B24E5ED8000DCD8D9 /* Assets.xcassets in Resources */,
+				9E8C0F4624E5ED7D00DCD8D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C0F5224E5ED8000DCD8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C0F5D24E5ED8000DCD8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8C0F3724E5ED7D00DCD8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8C0F4924E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld in Sources */,
+				9E8C0F4324E5ED7D00DCD8D9 /* ViewController.swift in Sources */,
+				9E8C0F3F24E5ED7D00DCD8D9 /* AppDelegate.swift in Sources */,
+				9E8C0F4124E5ED7D00DCD8D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C0F5024E5ED8000DCD8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8C0F5924E5ED8000DCD8D9 /* immersio_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C0F5B24E5ED8000DCD8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8C0F6424E5ED8000DCD8D9 /* immersio_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E8C0F5624E5ED8000DCD8D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E8C0F3A24E5ED7D00DCD8D9 /* immersio.ios */;
+			targetProxy = 9E8C0F5524E5ED8000DCD8D9 /* PBXContainerItemProxy */;
+		};
+		9E8C0F6124E5ED8000DCD8D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E8C0F3A24E5ED7D00DCD8D9 /* immersio.ios */;
+			targetProxy = 9E8C0F6024E5ED8000DCD8D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E8C0F4424E5ED7D00DCD8D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8C0F4524E5ED7D00DCD8D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E8C0F4C24E5ED8000DCD8D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8C0F4D24E5ED8000DCD8D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E8C0F6624E5ED8000DCD8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E8C0F6724E5ED8000DCD8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E8C0F6924E5ED8000DCD8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLCS96XH4L;
+				INFOPLIST_FILE = immersio.ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Immersio.immersio-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E8C0F6A24E5ED8000DCD8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLCS96XH4L;
+				INFOPLIST_FILE = immersio.ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Immersio.immersio-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E8C0F6C24E5ED8000DCD8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLCS96XH4L;
+				INFOPLIST_FILE = immersio.iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Immersio.immersio-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/immersio.ios.app/immersio.ios";
+			};
+			name = Debug;
+		};
+		9E8C0F6D24E5ED8000DCD8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLCS96XH4L;
+				INFOPLIST_FILE = immersio.iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Immersio.immersio-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/immersio.ios.app/immersio.ios";
+			};
+			name = Release;
+		};
+		9E8C0F6F24E5ED8000DCD8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLCS96XH4L;
+				INFOPLIST_FILE = immersio.iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Immersio.immersio-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = immersio.ios;
+			};
+			name = Debug;
+		};
+		9E8C0F7024E5ED8000DCD8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLCS96XH4L;
+				INFOPLIST_FILE = immersio.iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Immersio.immersio-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = immersio.ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E8C0F3624E5ED7D00DCD8D9 /* Build configuration list for PBXProject "immersio.ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8C0F6624E5ED8000DCD8D9 /* Debug */,
+				9E8C0F6724E5ED8000DCD8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8C0F6824E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8C0F6924E5ED8000DCD8D9 /* Debug */,
+				9E8C0F6A24E5ED8000DCD8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8C0F6B24E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8C0F6C24E5ED8000DCD8D9 /* Debug */,
+				9E8C0F6D24E5ED8000DCD8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8C0F6E24E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8C0F6F24E5ED8000DCD8D9 /* Debug */,
+				9E8C0F7024E5ED8000DCD8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E8C0F4724E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E8C0F4824E5ED7D00DCD8D9 /* immersio_ios.xcdatamodel */,
+			);
+			currentVersion = 9E8C0F4824E5ED7D00DCD8D9 /* immersio_ios.xcdatamodel */;
+			path = immersio_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E8C0F3324E5ED7D00DCD8D9 /* Project object */;
+}
