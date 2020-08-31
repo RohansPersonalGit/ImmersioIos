@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB007A2970F355CEEB2E83D /* Pods_immersio_ios_immersio_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFB65EB3B877B3092F739B /* Pods_immersio_ios_immersio_iosUITests.framework */; };
+		4F14C1234352B9D749353A5D /* Pods_immersio_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C082F371D96694DAB7AE7B /* Pods_immersio_iosTests.framework */; };
+		8C5B070718BC03567279A056 /* Pods_immersio_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92898681C7EB8D7CBDCF131D /* Pods_immersio_ios.framework */; };
+		9E3B226524F315B500A6F171 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B226424F315B500A6F171 /* ChatViewController.swift */; };
+		9E3B226724F316B800A6F171 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B226624F316B800A6F171 /* Message.swift */; };
+		9E3B226924F316C900A6F171 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B226824F316C900A6F171 /* Chat.swift */; };
 		9E8C0F3F24E5ED7D00DCD8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F3E24E5ED7D00DCD8D9 /* AppDelegate.swift */; };
 		9E8C0F4124E5ED7D00DCD8D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4024E5ED7D00DCD8D9 /* SceneDelegate.swift */; };
-		9E8C0F4324E5ED7D00DCD8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4224E5ED7D00DCD8D9 /* ViewController.swift */; };
+		9E8C0F4324E5ED7D00DCD8D9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4224E5ED7D00DCD8D9 /* StartViewController.swift */; };
 		9E8C0F4624E5ED7D00DCD8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4424E5ED7D00DCD8D9 /* Main.storyboard */; };
 		9E8C0F4924E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4724E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld */; };
 		9E8C0F4B24E5ED8000DCD8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4A24E5ED8000DCD8D9 /* Assets.xcassets */; };
 		9E8C0F4E24E5ED8000DCD8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F4C24E5ED8000DCD8D9 /* LaunchScreen.storyboard */; };
 		9E8C0F5924E5ED8000DCD8D9 /* immersio_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F5824E5ED8000DCD8D9 /* immersio_iosTests.swift */; };
 		9E8C0F6424E5ED8000DCD8D9 /* immersio_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F6324E5ED8000DCD8D9 /* immersio_iosUITests.swift */; };
+		9E8C0F7224E5EDA100DCD8D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F7124E5EDA100DCD8D9 /* GoogleService-Info.plist */; };
+		9E8C0F7324E5EDA100DCD8D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F7124E5EDA100DCD8D9 /* GoogleService-Info.plist */; };
+		9E8C0F7424E5EDA100DCD8D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E8C0F7124E5EDA100DCD8D9 /* GoogleService-Info.plist */; };
+		9E8C0F7624E5FA2700DCD8D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F7524E5FA2700DCD8D9 /* LoginViewController.swift */; };
+		9E8C0F7824E5FA3D00DCD8D9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C0F7724E5FA3D00DCD8D9 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024743E2B15D7E649840EDD6 /* Pods-immersio.ios-immersio.iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immersio.ios-immersio.iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5304E251BC9549B0DEF356D5 /* Pods-immersio.ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immersio.ios.debug.xcconfig"; path = "Target Support Files/Pods-immersio.ios/Pods-immersio.ios.debug.xcconfig"; sourceTree = "<group>"; };
+		70978FE6B523D146DA06B5B9 /* Pods-immersio.iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immersio.iosTests.release.xcconfig"; path = "Target Support Files/Pods-immersio.iosTests/Pods-immersio.iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		710015B7DADBB92B876A4B39 /* Pods-immersio.ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immersio.ios.release.xcconfig"; path = "Target Support Files/Pods-immersio.ios/Pods-immersio.ios.release.xcconfig"; sourceTree = "<group>"; };
+		831CA1CFD1CAC89502DEDB7E /* Pods-immersio.ios-immersio.iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immersio.ios-immersio.iosUITests.release.xcconfig"; path = "Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92898681C7EB8D7CBDCF131D /* Pods_immersio_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_immersio_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C082F371D96694DAB7AE7B /* Pods_immersio_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_immersio_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3B226424F315B500A6F171 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9E3B226624F316B800A6F171 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9E3B226824F316C900A6F171 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		9E8C0F3B24E5ED7D00DCD8D9 /* immersio.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = immersio.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8C0F3E24E5ED7D00DCD8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E8C0F4024E5ED7D00DCD8D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E8C0F4224E5ED7D00DCD8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E8C0F4224E5ED7D00DCD8D9 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		9E8C0F4524E5ED7D00DCD8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E8C0F4824E5ED7D00DCD8D9 /* immersio_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = immersio_ios.xcdatamodel; sourceTree = "<group>"; };
 		9E8C0F4A24E5ED8000DCD8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +72,11 @@
 		9E8C0F5F24E5ED8000DCD8D9 /* immersio.iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = immersio.iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8C0F6324E5ED8000DCD8D9 /* immersio_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = immersio_iosUITests.swift; sourceTree = "<group>"; };
 		9E8C0F6524E5ED8000DCD8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8C0F7124E5EDA100DCD8D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E8C0F7524E5FA2700DCD8D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E8C0F7724E5FA3D00DCD8D9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E847F545AE4E9333E956F586 /* Pods-immersio.iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immersio.iosTests.debug.xcconfig"; path = "Target Support Files/Pods-immersio.iosTests/Pods-immersio.iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFCFB65EB3B877B3092F739B /* Pods_immersio_ios_immersio_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_immersio_ios_immersio_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5B070718BC03567279A056 /* Pods_immersio_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F14C1234352B9D749353A5D /* Pods_immersio_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB007A2970F355CEEB2E83D /* Pods_immersio_ios_immersio_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +110,13 @@
 		9E8C0F3224E5ED7D00DCD8D9 = {
 			isa = PBXGroup;
 			children = (
+				9E8C0F7124E5EDA100DCD8D9 /* GoogleService-Info.plist */,
 				9E8C0F3D24E5ED7D00DCD8D9 /* immersio.ios */,
 				9E8C0F5724E5ED8000DCD8D9 /* immersio.iosTests */,
 				9E8C0F6224E5ED8000DCD8D9 /* immersio.iosUITests */,
 				9E8C0F3C24E5ED7D00DCD8D9 /* Products */,
+				A556C5195CE9A7B359931468 /* Pods */,
+				F7E14B24033E1D8BF692CE78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +135,17 @@
 			children = (
 				9E8C0F3E24E5ED7D00DCD8D9 /* AppDelegate.swift */,
 				9E8C0F4024E5ED7D00DCD8D9 /* SceneDelegate.swift */,
-				9E8C0F4224E5ED7D00DCD8D9 /* ViewController.swift */,
+				9E8C0F4224E5ED7D00DCD8D9 /* StartViewController.swift */,
 				9E8C0F4424E5ED7D00DCD8D9 /* Main.storyboard */,
 				9E8C0F4A24E5ED8000DCD8D9 /* Assets.xcassets */,
 				9E8C0F4C24E5ED8000DCD8D9 /* LaunchScreen.storyboard */,
 				9E8C0F4F24E5ED8000DCD8D9 /* Info.plist */,
 				9E8C0F4724E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld */,
+				9E8C0F7524E5FA2700DCD8D9 /* LoginViewController.swift */,
+				9E8C0F7724E5FA3D00DCD8D9 /* HomeViewController.swift */,
+				9E3B226424F315B500A6F171 /* ChatViewController.swift */,
+				9E3B226624F316B800A6F171 /* Message.swift */,
+				9E3B226824F316C900A6F171 /* Chat.swift */,
 			);
 			path = immersio.ios;
 			sourceTree = "<group>";
@@ -131,6 +168,29 @@
 			path = immersio.iosUITests;
 			sourceTree = "<group>";
 		};
+		A556C5195CE9A7B359931468 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5304E251BC9549B0DEF356D5 /* Pods-immersio.ios.debug.xcconfig */,
+				710015B7DADBB92B876A4B39 /* Pods-immersio.ios.release.xcconfig */,
+				024743E2B15D7E649840EDD6 /* Pods-immersio.ios-immersio.iosUITests.debug.xcconfig */,
+				831CA1CFD1CAC89502DEDB7E /* Pods-immersio.ios-immersio.iosUITests.release.xcconfig */,
+				E847F545AE4E9333E956F586 /* Pods-immersio.iosTests.debug.xcconfig */,
+				70978FE6B523D146DA06B5B9 /* Pods-immersio.iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7E14B24033E1D8BF692CE78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92898681C7EB8D7CBDCF131D /* Pods_immersio_ios.framework */,
+				FFCFB65EB3B877B3092F739B /* Pods_immersio_ios_immersio_iosUITests.framework */,
+				93C082F371D96694DAB7AE7B /* Pods_immersio_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E8C0F6824E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.ios" */;
 			buildPhases = (
+				CD3BB7907E373B43B93F78A6 /* [CP] Check Pods Manifest.lock */,
 				9E8C0F3724E5ED7D00DCD8D9 /* Sources */,
 				9E8C0F3824E5ED7D00DCD8D9 /* Frameworks */,
 				9E8C0F3924E5ED7D00DCD8D9 /* Resources */,
+				412961A781DEE70B358CC04B /* [CP] Embed Pods Frameworks */,
+				1AD79E08438A1899A4A3F9D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E8C0F6B24E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.iosTests" */;
 			buildPhases = (
+				44E234785D79E3B84B8B373F /* [CP] Check Pods Manifest.lock */,
 				9E8C0F5024E5ED8000DCD8D9 /* Sources */,
 				9E8C0F5124E5ED8000DCD8D9 /* Frameworks */,
 				9E8C0F5224E5ED8000DCD8D9 /* Resources */,
@@ -173,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E8C0F6E24E5ED8000DCD8D9 /* Build configuration list for PBXNativeTarget "immersio.iosUITests" */;
 			buildPhases = (
+				F9454DA250873F65B6251C85 /* [CP] Check Pods Manifest.lock */,
 				9E8C0F5B24E5ED8000DCD8D9 /* Sources */,
 				9E8C0F5C24E5ED8000DCD8D9 /* Frameworks */,
 				9E8C0F5D24E5ED8000DCD8D9 /* Resources */,
+				BA45F2651C8339266C942179 /* [CP] Embed Pods Frameworks */,
+				815E2202363175486BA0BFA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E8C0F4E24E5ED8000DCD8D9 /* LaunchScreen.storyboard in Resources */,
+				9E8C0F7224E5EDA100DCD8D9 /* GoogleService-Info.plist in Resources */,
 				9E8C0F4B24E5ED8000DCD8D9 /* Assets.xcassets in Resources */,
 				9E8C0F4624E5ED7D00DCD8D9 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8C0F7324E5EDA100DCD8D9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +321,148 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8C0F7424E5EDA100DCD8D9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AD79E08438A1899A4A3F9D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios/Pods-immersio.ios-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios/Pods-immersio.ios-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-immersio.ios/Pods-immersio.ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		412961A781DEE70B358CC04B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios/Pods-immersio.ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios/Pods-immersio.ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-immersio.ios/Pods-immersio.ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E234785D79E3B84B8B373F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-immersio.iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815E2202363175486BA0BFA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA45F2651C8339266C942179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-immersio.ios-immersio.iosUITests/Pods-immersio.ios-immersio.iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3BB7907E373B43B93F78A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-immersio.ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9454DA250873F65B6251C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-immersio.ios-immersio.iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E8C0F3724E5ED7D00DCD8D9 /* Sources */ = {
@@ -263,9 +470,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E8C0F4924E5ED7D00DCD8D9 /* immersio_ios.xcdatamodeld in Sources */,
-				9E8C0F4324E5ED7D00DCD8D9 /* ViewController.swift in Sources */,
+				9E8C0F4324E5ED7D00DCD8D9 /* StartViewController.swift in Sources */,
 				9E8C0F3F24E5ED7D00DCD8D9 /* AppDelegate.swift in Sources */,
+				9E8C0F7624E5FA2700DCD8D9 /* LoginViewController.swift in Sources */,
+				9E3B226924F316C900A6F171 /* Chat.swift in Sources */,
+				9E3B226524F315B500A6F171 /* ChatViewController.swift in Sources */,
+				9E3B226724F316B800A6F171 /* Message.swift in Sources */,
 				9E8C0F4124E5ED7D00DCD8D9 /* SceneDelegate.swift in Sources */,
+				9E8C0F7824E5FA3D00DCD8D9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +648,7 @@
 		};
 		9E8C0F6924E5ED8000DCD8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5304E251BC9549B0DEF356D5 /* Pods-immersio.ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +667,7 @@
 		};
 		9E8C0F6A24E5ED8000DCD8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710015B7DADBB92B876A4B39 /* Pods-immersio.ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +686,7 @@
 		};
 		9E8C0F6C24E5ED8000DCD8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E847F545AE4E9333E956F586 /* Pods-immersio.iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +709,7 @@
 		};
 		9E8C0F6D24E5ED8000DCD8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70978FE6B523D146DA06B5B9 /* Pods-immersio.iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +732,7 @@
 		};
 		9E8C0F6F24E5ED8000DCD8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024743E2B15D7E649840EDD6 /* Pods-immersio.ios-immersio.iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +753,7 @@
 		};
 		9E8C0F7024E5ED8000DCD8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831CA1CFD1CAC89502DEDB7E /* Pods-immersio.ios-immersio.iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

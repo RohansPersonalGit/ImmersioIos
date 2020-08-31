@@ -1,0 +1,6 @@
+framework module Pods_immersio_ios_immersio_iosUITests {
+  umbrella header "Pods-immersio.ios-immersio.iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
